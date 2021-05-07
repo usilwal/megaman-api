@@ -2,7 +2,7 @@ const masters = [{
         "id": 0,
         "name": "Proto Man",
         "quote": "You only care about petty things like fighting to be the best. But Mega Man is different. He cares about the future.",
-        "description": "The first prototype for a self-aware robot. He plays an older brother role with Mega Man by helping him out and giving advice, and even saves his life on a few occasions. He is a loner who, similar to his brother, has a strong sense of justice and helps those who need it.",
+        "description": "The first prototype for a self-aware robot, known as Blues in Japan. He plays an older brother role with Mega Man by helping him out and giving advice, and even saves his life on a few occasions. He is a loner who, similar to his brother, has a strong sense of justice and helps those who need it.",
         "weapon": "Proto Buster",
         "weaknesses": {
             '3': "Hard Knuckle",
@@ -148,11 +148,11 @@ const masters = [{
         "id": 10,
         "name": "Air Man",
         "quote": "Poor child...you should've known you can't beat me.",
-        "description": "",
-        "weapon": "",
+        "description": "Air Man is a Robot Master from the Mega Man series created by Dr. Wily specially for combat, debuting in Mega Man 2. Air Man has his face built into his torso instead of a head - an unusual design, said to be intimidating. This body supposedly worked out so well from a design perspective that it was dubbed the \"Air Man type\" design, and would be used as a basis for future creations such as Needle Man.",
+        "weapon": "Air Shooter",
         "weaknesses": {
-            "2": [],     
-            "3": []
+            "2": "Leaf Shield",     
+            "3": ["Magnet Missile", "Spark Shock"]
         },
         "images": {
             "sprite": "",
@@ -161,13 +161,13 @@ const masters = [{
     },
     {
         "id": 11,
-        "name": "",
-        "quote": "",
-        "description": "",
-        "weapon": "",
+        "name": "Bubble Man",
+        "quote": "Go ahead! Fight your way though every robot I stationed here! Avoid every trap I so carefully laid out. I'll be waiting for you. I'll be here preparing your watery grave! And I'll say 'Welcome to Davy Jones' Locker!'",
+        "description": "Bubble Man is a Robot Master from Mega Man 2. He is the first aquatic Robot Master created by Dr. Wily for underwater combat. However, a defect in his systems made him unable to walk on land, being only able to move by jumping (akin to a frog). When Wily noticed this, he couldn't help but laugh. Despite this flaw, Bubble Man is at home in the water, being able to swim at a remarkable speed.",
+        "weapon": "Bubble Lead",
         "weaknesses": {
-            "2": [],     
-            "3": []
+            "2": "Metal Blade",     
+            "3": ["Spark Shock", "Shadow Blade"]
         },
         "images": {
             "sprite": "",
@@ -176,13 +176,13 @@ const masters = [{
     },
     {
         "id": 12,
-        "name": "",
-        "quote": "",
-        "description": "",
-        "weapon": "",
+        "name": "Quick Man",
+        "quote": "Because to destroy you in a glorious battle, that is my aspiration! Then I will be the world's number one robot!",
+        "description": "Quick Man is a Robot Master from Mega Man 2. He was created by Dr. Wily using Elec Man's design as a base. His body is made of lightweight materials, allowing him to move at very high speeds, but this can easily cause him to be blown away by weapons like Air Man's Air Shooter.",
+        "weapon": "Quick Boomerang",
         "weaknesses": {
-            "2": [],     
-            "3": []
+            "2": ["Time Stopper", "Crash Bomber"],     
+            "3": ["Gemini Laser", "Search Snake"]
         },
         "images": {
             "sprite": "",
@@ -191,13 +191,13 @@ const masters = [{
     },
     {
         "id": 13,
-        "name": "",
-        "quote": "",
-        "description": "",
+        "name": "Crash Man",
+        "quote": "You think I'm some knock-off, is that it? I'm all the power of Guts Man and Bomb Man combined, you little punk! Who are you to talk, Mr. Copy-powers-'cause-you-got-none?!",
+        "description": "Crash Man, known as Clash Man in Japan, is a Robot Master from Mega Man 2 that was built by Dr. Wily using the designs of Bomb Man and Guts Man as a base with high speed and agility, the use of high explosives as primary weapons, and clad in a thick armor that can effectively withstand explosions.",
         "weapon": "",
         "weaknesses": {
-            "2": [],     
-            "3": []
+            "2": "Air Shooter",     
+            "3": ["Hard Knuckle", "Top Spin"]
         },
         "images": {
             "sprite": "",
@@ -206,13 +206,13 @@ const masters = [{
     },
     {
         "id": 14,
-        "name": "",
-        "quote": "",
-        "description": "",
-        "weapon": "",
+        "name": "Flash Man",
+        "quote": "Even the clever Rockman can't stand up to my Time Stopper. Sorry, but it ends here, Rockman!",
+        "description": "Flash Man is a Robot Master from Mega Man 2 created by Doctor Albert W. Wily to challenge the everlasting idea of controlling time. His Special Weapon is the Time Stopper, a unique system that allows him to stop time in his vicinity for brief periods.",
+        "weapon": "Time Stopper",
         "weaknesses": {
-            "2": [],     
-            "3": []
+            "2": ["Metal Blade", "Crash Bomber"],     
+            "3": ["Needle Canyon", "Gemini Laser"]
         },
         "images": {
             "sprite": "",
@@ -221,13 +221,13 @@ const masters = [{
     },
     {
         "id": 15,
-        "name": "",
-        "quote": "",
-        "description": "",
-        "weapon": "",
+        "name": "Heat Man",
+        "quote": "Does Fire Man complain about how hot he is? Because I'm supposed to be a direct upgrade on his design, and you'd think heat resistance would be a part of that... I don't even want to move... ",
+        "description": "Heat Man is a combat Robot Master from Mega Man 2 created by Dr. Wily based on Fire Man's design. His body has a box-like shape which resembles a Zippo lighter, with a lid that Heat Man can use to retract his head into for additional protection, but it can sometimes close down onto him unintentionally.",
+        "weapon": "Atomic Fire",
         "weaknesses": {
-            "2": [],     
-            "3": []
+            "2": "Bubble Lead",     
+            "3": ["Top Spin", "Shadow Blade"]
         },
         "images": {
             "sprite": "",
@@ -236,13 +236,15 @@ const masters = [{
     },
     {
         "id": 16,
-        "name": "",
-        "quote": "",
-        "description": "",
-        "weapon": "",
+        "name": "Wood Man",
+        "quote": "You killed Shadow Man, didn't you? I heard your voice as he was destroyed. He can't be rebuilt- I tried. But I can still extract vengeance! Fight me! You... you destroyed my friend. My family!",
+        "description": "Wood Man is a combat Robot Master created by Doctor Albert W. Wily using natural hinoki cypresses. He has a very unique design due to his body being made almost completely out of wood- including some of his mechanisms, along with a thin coating of metal for extra protection. Because of this, Wood Man has great strength and resistance against physical blows, but is somewhat slow and highly vulnerable to fire and cutting weaponry.",
+        "weapon": "Leaf Shield",
         "weaknesses": {
-            "2": [],     
-            "3": []
+            "2": ["Atomic Fire", "Air Shooter"],     
+            "3": ["Needle Cannon", "Search Snake"],
+            "8": "Flame Sword",
+            "10": "Triple Blade"
         },
         "images": {
             "sprite": "",
