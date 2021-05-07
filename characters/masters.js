@@ -129,6 +129,126 @@ const masters = [{
             "portrait": ""
         }
     },
+    {
+        "id": 9,
+        "name": "Metal Man",
+        "quote": "Catch! Hee hee hee...",
+        "description": "Metal Man is a Robot Master from Mega Man 2. He was the first Robot Master built by Dr. Wily, created specifically for combat for his revenge against Mega Man. Wily based Metal Man's design on Cut Man.",
+        "weapon": "Metal Blade",
+        "weaknesses": {
+            "2": ["Quick Boomerang", "Metal Blade"],     
+            "3": ["Magnet Missile", "Hard Knuckle"]
+        },
+        "images": {
+            "sprite": "",
+            "portrait": ""
+        }
+    },
+    {
+        "id": 10,
+        "name": "Air Man",
+        "quote": "Poor child...you should've known you can't beat me.",
+        "description": "",
+        "weapon": "",
+        "weaknesses": {
+            "2": [],     
+            "3": []
+        },
+        "images": {
+            "sprite": "",
+            "portrait": ""
+        }
+    },
+    {
+        "id": 11,
+        "name": "",
+        "quote": "",
+        "description": "",
+        "weapon": "",
+        "weaknesses": {
+            "2": [],     
+            "3": []
+        },
+        "images": {
+            "sprite": "",
+            "portrait": ""
+        }
+    },
+    {
+        "id": 12,
+        "name": "",
+        "quote": "",
+        "description": "",
+        "weapon": "",
+        "weaknesses": {
+            "2": [],     
+            "3": []
+        },
+        "images": {
+            "sprite": "",
+            "portrait": ""
+        }
+    },
+    {
+        "id": 13,
+        "name": "",
+        "quote": "",
+        "description": "",
+        "weapon": "",
+        "weaknesses": {
+            "2": [],     
+            "3": []
+        },
+        "images": {
+            "sprite": "",
+            "portrait": ""
+        }
+    },
+    {
+        "id": 14,
+        "name": "",
+        "quote": "",
+        "description": "",
+        "weapon": "",
+        "weaknesses": {
+            "2": [],     
+            "3": []
+        },
+        "images": {
+            "sprite": "",
+            "portrait": ""
+        }
+    },
+    {
+        "id": 15,
+        "name": "",
+        "quote": "",
+        "description": "",
+        "weapon": "",
+        "weaknesses": {
+            "2": [],     
+            "3": []
+        },
+        "images": {
+            "sprite": "",
+            "portrait": ""
+        }
+    },
+    {
+        "id": 16,
+        "name": "",
+        "quote": "",
+        "description": "",
+        "weapon": "",
+        "weaknesses": {
+            "2": [],     
+            "3": []
+        },
+        "images": {
+            "sprite": "",
+            "portrait": ""
+        }
+    },
 ]
 
 module.exports = masters;
